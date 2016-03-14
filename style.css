@@ -1,6 +1,7 @@
 body{
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 20px;
+    color: white;
     background-color: rgba(146, 211, 170, 0.66);
 }
 .con {
@@ -45,7 +46,6 @@ li {
     border-bottom: double;
     border-bottom-color: #49943c;
     height: 40px;
-    color: #001f02;
     text-shadow: #000000;
     display: block;
     font-size: 20px;

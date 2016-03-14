@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>toDo</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="underscore.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script type="text/javascript" src="backbone.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link type="text/css" rel="stylesheet" href="bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="bootstrap-theme.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="well con">
+      <h1>The Task List</h1>
+      <form id="addTask" action="">
+        <div class="form-group has-success">
+          <input type="text" placeholder="Enter task" class="addTask form-control">
+          <input type="submit" value="Add" class="add btn btn-default">
+        </div>
+      </form>
+      <div class="chooseDiv">
+        <input type="checkbox" class="choose">
+        <labe>Mark them all</labe>
+      </div>
+      <div class="tasks">
+        <script id="taskTemplate" type="text/template">
+          <input type="checkbox" class="check">
+          <lable class="taskTitle"><%= title %></lable>
+          <button class="btnDelete btn btn-default">Delete</button>
+          <form action="" class="act">
+            <input type="text" class="inpTaskTitle form-control">
+            <input type="submit" value="OK" class="btnSave btn btn-default">
+          </form>
+        </script>
+      </div>
+      <div class="footer">
+        <label class="taskCount"></label>
+        <button class="btnClean btn btn-default"></button>
+      </div>
+    </div>
+  </body>
+</html>

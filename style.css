@@ -1,0 +1,124 @@
+body{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    background-color: rgba(146, 211, 170, 0.66);
+}
+.con {
+	width: 600px;
+    margin: 20px auto;
+    padding: 5px;
+    background-image: linear-gradient(to bottom, #7ab48e 0%, #92d3aa 100%);
+}
+h1{
+    text-align: center;
+}
+#addTask{
+    height: 35px;
+}
+.addTask{
+    width: 80%;
+    font-size: inherit;
+    display:inline-block;
+    margin: auto;
+}
+.add{
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #6bae6c 0%, #7ab48e 100%);
+    width:15%;
+    height:90%;
+    display:inline-block;
+    margin: auto;
+}
+.add:hover{
+    background-color: #7ab48e;
+}
+.add:focus{
+    background-color: #7ab48e;
+}
+.add:active{
+    background-color: #7ab48e;
+}
+.tasks{
+    width: 90%;
+}
+li {
+    border-bottom: double;
+    border-bottom-color: #49943c;
+    height: 40px;
+    color: #001f02;
+    text-shadow: #000000;
+    display: block;
+    font-size: 20px;
+    list-style-type: none;
+    word-wrap: break-word;
+}
+.btnClean{
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #6bae6c 0%, #7ab48e 100%);
+    font-size: 60%;
+    float: right;
+    height: 30px;
+    display: none;
+    margin-right: 20px;
+}
+.act{
+    display: none;
+}
+.footer{
+    height: 35px;
+}
+.inpTaskTitle{
+    width: 80%;
+}
+.btnDelete{
+    background-image: linear-gradient(to bottom, #6bae6c 0%, #7ab48e 100%);
+    font-size: 80%;
+    float: right;
+    color: #701413;
+    display: none;
+}
+.taskCount{
+    font-size: 60%;
+    display: none;
+    font-weight: bold;
+}
+.chooseDiv{
+    font-size: 60%;
+	display: none;
+    font-weight: bold;
+}
+.inpTaskTitle{
+    font-size: inherit;
+    display: inline;
+}
+.btnSave{
+    background-image: linear-gradient(to bottom, #6bae6c 0%, #7ab48e 100%);
+    width: 10%;
+}
+.btnSave:hover{
+    background-color: #7ab48e;
+}
+.btnSave:focus{
+    background-color: #7ab48e;
+}
+.btnSave:active{
+    background-color: #7ab48e;
+}
+.btnClean:hover{
+    background-color: #7ab48e;
+}
+.btnClean:focus{
+    background-color: #7ab48e;
+}
+.btnClean:active{
+    background-color: #7ab48e;
+}
+.btnDelete:hover{
+    background-color: #7ab48e;
+}
+.btnDelete:focus{
+    background-color: #7ab48e;
+}
+.btnDelete:active{
+    background-color: #7ab48e;
+}

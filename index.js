@@ -43,7 +43,7 @@ $(function(){
             e.preventDefault();
             var newTaskTitle = $(e.currentTarget).find('input[type=text]').val();
                 if(newTaskTitle){
-                    var newTask = new App.Models.Task({title: newTaskTitle});
+                    var newTask = new App.Models.Task({title: newTaskTitle},{validate:true});
                     this.collection.add(newTask);
                     this.$el.find('input[type=text]').val('');
                 }
